@@ -109,7 +109,7 @@ actuadores = [
                 "acurrancy": "+-2"
             },
             {
-                "name": "Alimentación de Energía",
+                "name": "Alimentación de Energía", 
                 "maxValue": 5,
                 "minValue": 3.3,
                 "meausurementUnit": "V"
@@ -133,7 +133,7 @@ actuadores = [
                 "meausurementUnit": "V"
             }
         ],
-        "location": "Ubicación del Relay",
+        "location": "Baño",
         "status": "Disponible",
         "initialDate": {"$date": datetime(2024, 3, 7, 8, 0, 0)},
         "owner": "TechSoft"
@@ -157,7 +157,7 @@ actuadores = [
                 "meausurementUnit": "V"
             }
         ],
-        "location": "Ubicación del Ventilador",
+        "location": "Sala",
         "status": "Disponible",
         "initialDate": {"$date": datetime(2024, 3, 7, 8, 0, 0)},
         "owner": "TechInd"
@@ -165,5 +165,4 @@ actuadores = [
 ]
 
 
-ubicaciones = ["Recámara 1", "Recámara 2", "Recámara 3", "Baño 1","Baño 2",
-                   "Cocina", "Sala", "Garage"]
+ubicaciones = ["Recámara 1", "Recámara 2", "Recámara 3", "Baño 1", "Baño 2", "Cocina", "Sala", "Garage"]
